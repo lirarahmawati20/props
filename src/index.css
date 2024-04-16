@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #d9f7fd, #f8fcfc, #c8f2fa);
+}
+
+
+.header {
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    background-image: linear-gradient(to right, #eaf6f6, #90e4f5, #d3f1f7);
+}
+
+
+.judul {
+    box-shadow: 0 10px 4px rgba(1, 0, 0, 0.1);
+    transition: background-color 0.9s ease;
+    padding: 15px;
+    margin-left: 20px;
+    color: rgb(12, 13, 13);
+    size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 7px;
+}
+
+.icon-moll {
+    position: relative;
+    margin-top: -21px;
+    padding: 10px;
+    margin-right: 18px;
+    z-index: 1;
+}
+
+.transaction {
+    background-color: brown;
+    border-radius: 70px;
+    color: #f8f8f8;
+    text-align: center;
+    margin-left: 22px;
+    margin-right: 14px;
+    margin-top: 4px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.produc-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.images {
+    width: 100%;
+    height: 50%;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.container {
+    margin-top: 20px;
+    width: 230px;
+    height: 320px;
+    text-align: center;
+    border: 2px solid #b1adad;
+    border-radius: 13px;
+    box-shadow: 0 10px 7px rgba(1, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    background-image: linear-gradient(to right, #bceef8, #ffffff);
+
+}
+
+h3 {
+    margin: 2px;
+    padding: 2px;
+}
+
+.icon {
+    margin: 2px;
+    padding: 8px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    
+}
+
+.icon:not(:last-child) {
+    margin-right: 20px;
+    
+}
+
+
+
+.container:hover {
+    background-image: linear-gradient(to right, #ffffff, #0fbaf3);
+}
+
+
+.back-button {
+    width: 20px;
+    height: auto;
+    margin-left: 90px;
+    margin-top: 10px;
+    size: 30px;
+    justify-content: left;
+    
+}
+
+
+.transaction {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.icon-moll {
+    cursor: pointer;
+}
+
+.cart-details {
+    position: fixed;
+    top: 40px;
+    right: 10px;
+    background-color: #f9fcfc;
+    border: 1px solid #ddd;
+    /* padding: 1px; */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow-y: auto;
+    max-height: 70vh;
+}
+
+.cart-details h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    position: sticky;
+    top: -5px;
+    background-color: rgb(165, 231, 245);
+    height: 50px;
+    z-index: 1;
+    color: #0b0b0b;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.cart-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    top: 5px;
+}
+
+.cart-details li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
